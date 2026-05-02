@@ -1,0 +1,7 @@
+<h1>Username: {{ user.name }}</h1>
+<p>Role: {{ user.role }}</p>
+<p> Score: {{ user.score }} </p>
+
+{% for msg in user.messege %}
+<p>{{ msg }}</p>
+{% endfor %}
